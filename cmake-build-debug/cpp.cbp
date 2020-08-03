@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp">
+				<Option output="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/."/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/etc"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp/fast">
+				<Option output="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/."/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header"/>
+					<Add directory="/Users/2y2ssn/CLionProjects/cpp/src/etc"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/etc/temp.h">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/dice_roll.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/solution.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/main.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/UnionFind.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/bfs.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/dp.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/graph.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/list.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/node.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/project_etc.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/src/until/until_header/test_space.hpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

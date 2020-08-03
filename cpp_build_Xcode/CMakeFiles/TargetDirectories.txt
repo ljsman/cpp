@@ -1,0 +1,3 @@
+/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/cpp.dir
+/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/ZERO_CHECK.dir
