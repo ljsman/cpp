@@ -1,6 +1,0 @@
-/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/cpp.dir
-/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/ALL_BUILD.dir
-/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/ZERO_CHECK.dir
-/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/CMakeFiles/leetcode_lib.dir
-/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/CMakeFiles/ALL_BUILD.dir
-/Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/CMakeFiles/ZERO_CHECK.dir
