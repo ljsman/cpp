@@ -9,6 +9,7 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/2y2ssn/CLionProjects/
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/3.18.1/CMakeCCompiler.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/3.18.1/CMakeCXXCompiler.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeFiles/3.18.1/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/2y2ssn/CLionProjects/cpp/src/leetcode/CMakeLists.txt))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCCompiler.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCCompilerABI.c))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.18.1/share/cmake/Modules/CMakeCInformation.cmake))

@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		032A56BBD4DD4FA38CBEC085 /* ALL_BUILD */ = {
+		D47ACBD4A65C4F3E9660D384 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 2C7319ECCE8A4BBB96FD0989 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = A267227F49B340EDB95D6EEA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				0DB2AB2172D34CF8BA15E39F /* CMake Rules */,
+				D6CBDA831A9B4DCF857B7F5E /* CMake Rules */,
 			);
 			dependencies = (
-				29146BD9A84B415EAA5569B3 /* PBXTargetDependency */,
-				2FDC13BB974B41BA8A137F9F /* PBXTargetDependency */,
+				7BE64D77ADE14746BCAB07FB /* PBXTargetDependency */,
+				1578E37860FC449EAD9BC25C /* PBXTargetDependency */,
+				E5C301CF55354FB79F4BDF9D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
-		AE850A0986B942668A771D86 /* ZERO_CHECK */ = {
+		F4BABD60A25C4EE6BDEDFE83 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E0F4433DD6C1434CA8DE864D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 83AF372979B94D7F8BC4A790 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				47AE072F7E4F423B9A8430D2 /* CMake Rules */,
+				ADAAD2CA3B084EEAA524F2D9 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -34,271 +35,260 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A3003DB7BEC47B7AC7B0FEE /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/node.hpp */ = {isa = PBXBuildFile; fileRef = 6C0DABA38B3D41A689CEDD30 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/node.hpp */; };
-		1FFD9016146749E89E2CB340 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/UnionFind.hpp */ = {isa = PBXBuildFile; fileRef = 103B92BB782B4FEBAE8A4CE4 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/UnionFind.hpp */; };
-		2D7E9D308FC144E4A3EE90E0 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/project_etc.hpp */ = {isa = PBXBuildFile; fileRef = 3B0D5F7B5B3341AA93FB759B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/project_etc.hpp */; };
-		322BB6F2C73B490D945BD8CC /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/graph.hpp */ = {isa = PBXBuildFile; fileRef = 37E1F3B6964244888A34A4CB /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/graph.hpp */; };
-		34A25B2848CC4F99804D2FDA /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/dp.hpp */ = {isa = PBXBuildFile; fileRef = 18C12114C73D425784AD913A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/dp.hpp */; };
-		365374AB5ABC43CA9280EF6A /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.hpp */ = {isa = PBXBuildFile; fileRef = ECF1FD58AC09484894F62781 /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.hpp */; };
-		395D9C8AAB284354A4932EA8 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/list.hpp */ = {isa = PBXBuildFile; fileRef = 7E37FBBF3AD24FE193CF4BD6 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/list.hpp */; };
-		3E387FAB2BDE46B18A1A3B4F /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */ = {isa = PBXBuildFile; fileRef = 6288C08901144AC78BF82177 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */; };
-		3FEA4BD4DC394E8AB1781BEC /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.cpp */ = {isa = PBXBuildFile; fileRef = BE4AF2449F55493589217374 /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.cpp */; };
-		411F9C1339E24114B8A6C57B /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/solution.hpp */ = {isa = PBXBuildFile; fileRef = EA7A7C0E767D4FF687AFDEAA /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/solution.hpp */; };
-		73A85054333F4FB5BAFE80CC /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/test_space.hpp */ = {isa = PBXBuildFile; fileRef = 197AD01E62EB4C2E862BAD02 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/test_space.hpp */; };
-		766BB1157C484192AE65D991 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */ = {isa = PBXBuildFile; fileRef = 276643728662498D9B6EEB1C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */; };
-		87EEA3E800554F3F90D8ECF9 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/dice_roll.hpp */ = {isa = PBXBuildFile; fileRef = 948A27BD8C594B44A198FD8F /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/dice_roll.hpp */; };
-		885E8783735A4882B651E2D9 /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 04F319CEE34D419BA84BCA00 /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */; };
-		8D3345F4F452420CB768C906 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */ = {isa = PBXBuildFile; fileRef = 6EDC7BA0AAB04D1696E5F1BF /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */; };
-		A2675088D0024210B5642C77 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp */ = {isa = PBXBuildFile; fileRef = 8EAFA195EDBE459A8C981D5C /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp */; };
-		A468D185184D43FF8E110ABA /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */ = {isa = PBXBuildFile; fileRef = 1DBFDACEC1084E82AA2B2467 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */; };
-		B8BB0D9603A5448D852AB080 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/bfs.hpp */ = {isa = PBXBuildFile; fileRef = 6701819DEDB94871A86BFA7B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/bfs.hpp */; };
-		D1BD6F22130949D9BA612183 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */ = {isa = PBXBuildFile; fileRef = BC358F063B2647F5B06B9848 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */; };
-		D1EA4A114109407896C112CC /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */ = {isa = PBXBuildFile; fileRef = 4EE504CD3D2C49A9BFD20E06 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */; };
-		D820EF7F971E402197A0811E /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */ = {isa = PBXBuildFile; fileRef = 66F44BAB6C5940DBA4F7BF6F /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */; };
-		DF102CAFAB0B490D93AC49A7 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */ = {isa = PBXBuildFile; fileRef = 81946DB21BD144FA8558BAE4 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */; };
-		E86756025AD848E7A83BA985 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 29C5D2C2202444FE86A1D937 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */; };
-		FF4A35484F3A4007A027B158 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp */ = {isa = PBXBuildFile; fileRef = 1FEBEA0BA0444AF69A8A4DB5 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp */; };
+		01307FC8AEDC460D9F48C063 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */ = {isa = PBXBuildFile; fileRef = 4840F069E3C043B2A068275C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */; };
+		0CFFED207A284F9A8B9006B7 /* /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp */ = {isa = PBXBuildFile; fileRef = 9D9BDF576B274EE9AE8157FD /* /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp */; };
+		25AEF25FF66A4F0092FF549A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */ = {isa = PBXBuildFile; fileRef = A235CBAA1EDD42AC9FB0C158 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */; };
+		343F8F6475E24188BDC6E789 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */ = {isa = PBXBuildFile; fileRef = 4657ED5F5F1D49C4AD6A8D4B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */; };
+		4133A749966E439288FDF1E7 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BDB5F9C6EC9244DD934D58C8 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */; };
+		43FA6BDA4231498192428D7F /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9C16633E33624FFA9431A3DF /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/CMakeLists.txt */; };
+		ABA6EE8BB01744E0B6345EFC /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */ = {isa = PBXBuildFile; fileRef = A6EB9FAAA63C414EA6AE2A8C /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */; };
+		AE897230945340358354A94B /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp */ = {isa = PBXBuildFile; fileRef = 66FF6DC278E24AEFA47D9AE9 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp */; };
+		B194FDBA15754B4BA20406AB /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */ = {isa = PBXBuildFile; fileRef = 2B27BCF3CFB146D49F2D287D /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */; };
+		C267477095E54132A5C94837 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */ = {isa = PBXBuildFile; fileRef = 260DEABAFFBA47DE8CE328D3 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */; };
+		DCA2B08815DD42378A95ED30 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/solution.cpp */ = {isa = PBXBuildFile; fileRef = 70982585554040BE9D84DF6C /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/solution.cpp */; };
+		DCD29E851721409AA3F6BEE6 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */ = {isa = PBXBuildFile; fileRef = AA727B5F1D904C4FB4BFB39C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */; };
+		E2DC2D7206D74D029FBA2B04 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */ = {isa = PBXBuildFile; fileRef = 1946EB4AD3204956B3A4AF68 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */; };
+		F8D6188E9670420EA3AC0F9A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */ = {isa = PBXBuildFile; fileRef = D71E26EC305D43A1A9E4FC6E /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		66AADBFBDACE4E5FB314B4D4 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		A6B9CC1BD8BC4267B2E3147C /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		D210559162FB4E8BACE7D3EC /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		FCC2540AA05F496AB004B95D /* RelWithDebInfo */ = {
+		3750DD46A5DB422A84FC2FD6 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		4655DB56BC1F4B0E84836A0A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		62F5054A25D64425A7C254F8 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		73EAEA4E191B4ACE8503FCAA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		4F34A43377AE4E36981E3607 /* PBXContainerItemProxy */ = {
+		0EFB494EE3144143B869E421 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12A71BBABD6348458A3AE536 /* Project object */;
+			containerPortal = 5F73E7DF3410483084F97AF3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE850A0986B942668A771D86;
+			remoteGlobalIDString = F4BABD60A25C4EE6BDEDFE83;
 			remoteInfo = ZERO_CHECK;
 		};
-		58ABC15679FA46F3A53F8B09 /* PBXContainerItemProxy */ = {
+		2351BBCD076243FDAA25EFA6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12A71BBABD6348458A3AE536 /* Project object */;
+			containerPortal = 5F73E7DF3410483084F97AF3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE850A0986B942668A771D86;
+			remoteGlobalIDString = F4BABD60A25C4EE6BDEDFE83;
 			remoteInfo = ZERO_CHECK;
 		};
-		E5391E9CDDA8464293C61499 /* PBXContainerItemProxy */ = {
+		35EE882D1FFE4532B4F282CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 12A71BBABD6348458A3AE536 /* Project object */;
+			containerPortal = 5F73E7DF3410483084F97AF3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9AEAAF74830B4ABDB0CBE8B1;
+			remoteGlobalIDString = 961C39E2553345158302B640;
+			remoteInfo = leetcode_lib;
+		};
+		8E4D55F55DFC4B30A238F975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F73E7DF3410483084F97AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961C39E2553345158302B640;
+			remoteInfo = leetcode_lib;
+		};
+		D64C3CC399594255BD614337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F73E7DF3410483084F97AF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B833E702599745A28401AB38;
 			remoteInfo = cpp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04F319CEE34D419BA84BCA00 /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		103B92BB782B4FEBAE8A4CE4 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/UnionFind.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = UnionFind.hpp; path = src/until/until_header/UnionFind.hpp; sourceTree = SOURCE_ROOT; };
-		18C12114C73D425784AD913A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/dp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dp.hpp; path = src/until/until_header/dp.hpp; sourceTree = SOURCE_ROOT; };
-		197AD01E62EB4C2E862BAD02 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/test_space.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test_space.hpp; path = src/until/until_header/test_space.hpp; sourceTree = SOURCE_ROOT; };
-		1DBFDACEC1084E82AA2B2467 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnionFind.cpp; path = src/until/until_cpp/UnionFind.cpp; sourceTree = SOURCE_ROOT; };
-		1FEBEA0BA0444AF69A8A4DB5 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solution.cpp; path = src/leetcode_problems/leetcode_cpp/solution.cpp; sourceTree = SOURCE_ROOT; };
-		276643728662498D9B6EEB1C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cpp; path = src/until/until_graph/graph.cpp; sourceTree = SOURCE_ROOT; };
-		29C5D2C2202444FE86A1D937 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		37E1F3B6964244888A34A4CB /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/graph.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = graph.hpp; path = src/until/until_header/graph.hpp; sourceTree = SOURCE_ROOT; };
-		39F90D7EE77D4560B936469F /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		3B0D5F7B5B3341AA93FB759B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/project_etc.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = project_etc.hpp; path = src/until/until_header/project_etc.hpp; sourceTree = SOURCE_ROOT; };
-		4EE504CD3D2C49A9BFD20E06 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = list.cpp; path = src/until/until_cpp/list.cpp; sourceTree = SOURCE_ROOT; };
-		6288C08901144AC78BF82177 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node.cpp; path = src/until/until_cpp/node.cpp; sourceTree = SOURCE_ROOT; };
-		66F44BAB6C5940DBA4F7BF6F /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_space.cpp; path = src/until/until_cpp/test_space.cpp; sourceTree = SOURCE_ROOT; };
-		6701819DEDB94871A86BFA7B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/bfs.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bfs.hpp; path = src/until/until_header/bfs.hpp; sourceTree = SOURCE_ROOT; };
-		6C0DABA38B3D41A689CEDD30 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/node.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = node.hpp; path = src/until/until_header/node.hpp; sourceTree = SOURCE_ROOT; };
-		6EDC7BA0AAB04D1696E5F1BF /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dp.cpp; path = src/until/until_cpp/dp.cpp; sourceTree = SOURCE_ROOT; };
-		7E37FBBF3AD24FE193CF4BD6 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = list.hpp; path = src/until/until_header/list.hpp; sourceTree = SOURCE_ROOT; };
-		81946DB21BD144FA8558BAE4 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = project_etc.cpp; path = src/until/until_cpp/project_etc.cpp; sourceTree = SOURCE_ROOT; };
-		8EAFA195EDBE459A8C981D5C /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dice_roll.cpp; path = src/leetcode_problems/leetcode_cpp/dice_roll.cpp; sourceTree = SOURCE_ROOT; };
-		948A27BD8C594B44A198FD8F /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/dice_roll.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = dice_roll.hpp; path = src/leetcode_problems/leetcode_header/dice_roll.hpp; sourceTree = SOURCE_ROOT; };
-		BC358F063B2647F5B06B9848 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bfs.cpp; path = src/until/until_cpp/bfs.cpp; sourceTree = SOURCE_ROOT; };
-		BE4AF2449F55493589217374 /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cmake.cpp; path = cMake/cmake.cpp; sourceTree = SOURCE_ROOT; };
-		E703E34F23BB463DA09C84FD /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA7A7C0E767D4FF687AFDEAA /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/solution.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = solution.hpp; path = src/leetcode_problems/leetcode_header/solution.hpp; sourceTree = SOURCE_ROOT; };
-		ECF1FD58AC09484894F62781 /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cmake.hpp; path = cMake/cmake.hpp; sourceTree = SOURCE_ROOT; };
+		03631A464B464F7590A9DA1D /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		1946EB4AD3204956B3A4AF68 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bfs.cpp; path = src/until/until_cpp/bfs.cpp; sourceTree = SOURCE_ROOT; };
+		260DEABAFFBA47DE8CE328D3 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = list.cpp; path = src/until/until_cpp/list.cpp; sourceTree = SOURCE_ROOT; };
+		2B27BCF3CFB146D49F2D287D /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = UnionFind.cpp; path = src/until/until_cpp/UnionFind.cpp; sourceTree = SOURCE_ROOT; };
+		4657ED5F5F1D49C4AD6A8D4B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cpp; path = src/until/until_graph/graph.cpp; sourceTree = SOURCE_ROOT; };
+		4840F069E3C043B2A068275C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_space.cpp; path = src/until/until_cpp/test_space.cpp; sourceTree = SOURCE_ROOT; };
+		66FF6DC278E24AEFA47D9AE9 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dice_roll.cpp; path = src/leetcode/source/dice_roll.cpp; sourceTree = SOURCE_ROOT; };
+		70982585554040BE9D84DF6C /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/solution.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = solution.cpp; path = src/leetcode/source/solution.cpp; sourceTree = SOURCE_ROOT; };
+		856664AF97DE4D9DA05E9C80 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9C16633E33624FFA9431A3DF /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/leetcode/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D9BDF576B274EE9AE8157FD /* /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = temp.cpp; path = src/etc/temp.cpp; sourceTree = SOURCE_ROOT; };
+		A235CBAA1EDD42AC9FB0C158 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = project_etc.cpp; path = src/until/until_cpp/project_etc.cpp; sourceTree = SOURCE_ROOT; };
+		A6EB9FAAA63C414EA6AE2A8C /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		AA727B5F1D904C4FB4BFB39C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node.cpp; path = src/until/until_cpp/node.cpp; sourceTree = SOURCE_ROOT; };
+		B0719F9F64784F8893062DB0 /* leetcode_lib */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libleetcode_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB5F9C6EC9244DD934D58C8 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D71E26EC305D43A1A9E4FC6E /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dp.cpp; path = src/until/until_cpp/dp.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		27912904BC8C4C5B86E5D69D /* ALL_BUILD */ = {
+		34C124C0C55D4A5B824A964F /* leetcode_lib */ = {
 			isa = PBXGroup;
 			children = (
-				6EC66AB6F3144C599C4A6FFF /* CMake Rules */,
-				39F90D7EE77D4560B936469F /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */,
+				75B0773703784F06A1F13E90 /* Source Files */,
+				9C16633E33624FFA9431A3DF /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/CMakeLists.txt */,
 			);
-			name = ALL_BUILD;
+			name = leetcode_lib;
 			sourceTree = "<group>";
 		};
-		4FF4C7B1825942DCA66BE8E5 /* Products */ = {
+		38DAF99E11744A0AB7318A48 = {
 			isa = PBXGroup;
 			children = (
-				E703E34F23BB463DA09C84FD /* cpp */,
+				A2C9624441BF4217859A8080 /* cpp */,
+				57FB401DCB38427DBDA0D50F /* ALL_BUILD */,
+				34C124C0C55D4A5B824A964F /* leetcode_lib */,
+				3FB2A520ADBF4911B2F79238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB2A520ADBF4911B2F79238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03631A464B464F7590A9DA1D /* cpp */,
+				B0719F9F64784F8893062DB0 /* leetcode_lib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D7A013838BE4E4D97FF3644 /* Source Files */ = {
+		57FB401DCB38427DBDA0D50F /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				BE4AF2449F55493589217374 /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.cpp */,
-				8EAFA195EDBE459A8C981D5C /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp */,
-				1FEBEA0BA0444AF69A8A4DB5 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp */,
-				04F319CEE34D419BA84BCA00 /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */,
-				1DBFDACEC1084E82AA2B2467 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */,
-				BC358F063B2647F5B06B9848 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */,
-				6EDC7BA0AAB04D1696E5F1BF /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */,
-				4EE504CD3D2C49A9BFD20E06 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */,
-				6288C08901144AC78BF82177 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */,
-				81946DB21BD144FA8558BAE4 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */,
-				66F44BAB6C5940DBA4F7BF6F /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */,
-				276643728662498D9B6EEB1C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */,
+				FDF92F6335FB44F8B805555F /* CMake Rules */,
+				856664AF97DE4D9DA05E9C80 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		75B0773703784F06A1F13E90 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				66FF6DC278E24AEFA47D9AE9 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp */,
+				70982585554040BE9D84DF6C /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/solution.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		6EC66AB6F3144C599C4A6FFF /* CMake Rules */ = {
+		A2C9624441BF4217859A8080 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				AAE231ADF56A4E91B7E9DA75 /* Source Files */,
+				BDB5F9C6EC9244DD934D58C8 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		AAE231ADF56A4E91B7E9DA75 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9BDF576B274EE9AE8157FD /* /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp */,
+				A6EB9FAAA63C414EA6AE2A8C /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */,
+				2B27BCF3CFB146D49F2D287D /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */,
+				1946EB4AD3204956B3A4AF68 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */,
+				D71E26EC305D43A1A9E4FC6E /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */,
+				260DEABAFFBA47DE8CE328D3 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */,
+				AA727B5F1D904C4FB4BFB39C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */,
+				A235CBAA1EDD42AC9FB0C158 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */,
+				4840F069E3C043B2A068275C /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */,
+				4657ED5F5F1D49C4AD6A8D4B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FDF92F6335FB44F8B805555F /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		A394272E29EC44A4B4D4197A /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				ECF1FD58AC09484894F62781 /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.hpp */,
-				948A27BD8C594B44A198FD8F /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/dice_roll.hpp */,
-				EA7A7C0E767D4FF687AFDEAA /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header/solution.hpp */,
-				103B92BB782B4FEBAE8A4CE4 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/UnionFind.hpp */,
-				6701819DEDB94871A86BFA7B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/bfs.hpp */,
-				18C12114C73D425784AD913A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/dp.hpp */,
-				37E1F3B6964244888A34A4CB /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/graph.hpp */,
-				7E37FBBF3AD24FE193CF4BD6 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/list.hpp */,
-				6C0DABA38B3D41A689CEDD30 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/node.hpp */,
-				3B0D5F7B5B3341AA93FB759B /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/project_etc.hpp */,
-				197AD01E62EB4C2E862BAD02 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_header/test_space.hpp */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		C7160670C2854E639CA6114C = {
-			isa = PBXGroup;
-			children = (
-				D526E67110764E02811618D2 /* cpp */,
-				27912904BC8C4C5B86E5D69D /* ALL_BUILD */,
-				4FF4C7B1825942DCA66BE8E5 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		D526E67110764E02811618D2 /* cpp */ = {
-			isa = PBXGroup;
-			children = (
-				6D7A013838BE4E4D97FF3644 /* Source Files */,
-				A394272E29EC44A4B4D4197A /* Header Files */,
-				29C5D2C2202444FE86A1D937 /* /Users/2y2ssn/CLionProjects/cpp/CMakeLists.txt */,
-			);
-			name = cpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9AEAAF74830B4ABDB0CBE8B1 /* cpp */ = {
+		961C39E2553345158302B640 /* leetcode_lib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6427B3BA27224ABDA7BE9CAF /* Build configuration list for PBXNativeTarget "cpp" */;
+			buildConfigurationList = 4614B36A4F574EBE9A59A285 /* Build configuration list for PBXNativeTarget "leetcode_lib" */;
 			buildPhases = (
-				EDB92EF01CC840C1835A27F8 /* Sources */,
+				8140A3585BCC45BF831DCFE3 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B542CBF29F0A494598537DF4 /* PBXTargetDependency */,
+			);
+			name = leetcode_lib;
+			productName = leetcode_lib;
+			productReference = B0719F9F64784F8893062DB0 /* leetcode_lib */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B833E702599745A28401AB38 /* cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D323C92E8D3445AEA7EBE584 /* Build configuration list for PBXNativeTarget "cpp" */;
+			buildPhases = (
+				C1CAB28B8FE948448705A0CE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CC6480511D4781B28BC166 /* PBXTargetDependency */,
+				F11870CC06DD43AE988F38B9 /* PBXTargetDependency */,
 			);
 			name = cpp;
 			productName = cpp;
-			productReference = E703E34F23BB463DA09C84FD /* cpp */;
+			productReference = 03631A464B464F7590A9DA1D /* cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		12A71BBABD6348458A3AE536 /* Project object */ = {
+		5F73E7DF3410483084F97AF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1160;
 			};
-			buildConfigurationList = 66CEBBFCB2E44EF3B1CE7CAB /* Build configuration list for PBXProject "cpp" */;
+			buildConfigurationList = 6B7EA6BFF02F4123ABFC9541 /* Build configuration list for PBXProject "cpp" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				D210559162FB4E8BACE7D3EC /* Debug */,
-				66AADBFBDACE4E5FB314B4D4 /* Release */,
-				A6B9CC1BD8BC4267B2E3147C /* MinSizeRel */,
-				FCC2540AA05F496AB004B95D /* RelWithDebInfo */,
+				62F5054A25D64425A7C254F8 /* Debug */,
+				73EAEA4E191B4ACE8503FCAA /* Release */,
+				4655DB56BC1F4B0E84836A0A /* MinSizeRel */,
+				3750DD46A5DB422A84FC2FD6 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = C7160670C2854E639CA6114C;
+			mainGroup = 38DAF99E11744A0AB7318A48;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
-				032A56BBD4DD4FA38CBEC085 /* ALL_BUILD */,
-				AE850A0986B942668A771D86 /* ZERO_CHECK */,
-				9AEAAF74830B4ABDB0CBE8B1 /* cpp */,
+				D47ACBD4A65C4F3E9660D384 /* ALL_BUILD */,
+				F4BABD60A25C4EE6BDEDFE83 /* ZERO_CHECK */,
+				B833E702599745A28401AB38 /* cpp */,
+				961C39E2553345158302B640 /* leetcode_lib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DB2AB2172D34CF8BA15E39F /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode -f /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		47AE072F7E4F423B9A8430D2 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode -f /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
-			showEnvVarsInLog = 0;
-		};
-		5B72564C2825429D97BD325F = {
+		3CC004DECA664F53A0B617C9 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,7 +303,29 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		90E583A6CB914A189E145119 = {
+		ADAAD2CA3B084EEAA524F2D9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode -f /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D6CBDA831A9B4DCF857B7F5E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode -f /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DC81033205C54A9DAEA46608 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,59 +343,106 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EDB92EF01CC840C1835A27F8 /* Sources */ = {
+		8140A3585BCC45BF831DCFE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEA4BD4DC394E8AB1781BEC /* /Users/2y2ssn/CLionProjects/cpp/cMake/cmake.cpp */,
-				A2675088D0024210B5642C77 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp */,
-				FF4A35484F3A4007A027B158 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp */,
-				885E8783735A4882B651E2D9 /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */,
-				A468D185184D43FF8E110ABA /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */,
-				D1BD6F22130949D9BA612183 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */,
-				8D3345F4F452420CB768C906 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */,
-				D1EA4A114109407896C112CC /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */,
-				3E387FAB2BDE46B18A1A3B4F /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */,
-				DF102CAFAB0B490D93AC49A7 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */,
-				D820EF7F971E402197A0811E /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */,
-				766BB1157C484192AE65D991 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */,
+				AE897230945340358354A94B /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp */,
+				DCA2B08815DD42378A95ED30 /* /Users/2y2ssn/CLionProjects/cpp/src/leetcode/source/solution.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CAB28B8FE948448705A0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFFED207A284F9A8B9006B7 /* /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp */,
+				ABA6EE8BB01744E0B6345EFC /* /Users/2y2ssn/CLionProjects/cpp/src/main.cpp */,
+				B194FDBA15754B4BA20406AB /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp */,
+				E2DC2D7206D74D029FBA2B04 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp */,
+				F8D6188E9670420EA3AC0F9A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp */,
+				C267477095E54132A5C94837 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp */,
+				DCD29E851721409AA3F6BEE6 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp */,
+				25AEF25FF66A4F0092FF549A /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp */,
+				01307FC8AEDC460D9F48C063 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp */,
+				343F8F6475E24188BDC6E789 /* /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29146BD9A84B415EAA5569B3 /* PBXTargetDependency */ = {
+		1578E37860FC449EAD9BC25C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9AEAAF74830B4ABDB0CBE8B1 /* cpp */;
-			targetProxy = E5391E9CDDA8464293C61499 /* PBXContainerItemProxy */;
+			target = B833E702599745A28401AB38 /* cpp */;
+			targetProxy = D64C3CC399594255BD614337 /* PBXContainerItemProxy */;
 		};
-		2FDC13BB974B41BA8A137F9F /* PBXTargetDependency */ = {
+		7BE64D77ADE14746BCAB07FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE850A0986B942668A771D86 /* ZERO_CHECK */;
-			targetProxy = 4F34A43377AE4E36981E3607 /* PBXContainerItemProxy */;
+			target = F4BABD60A25C4EE6BDEDFE83 /* ZERO_CHECK */;
+			targetProxy = 0EFB494EE3144143B869E421 /* PBXContainerItemProxy */;
 		};
-		B542CBF29F0A494598537DF4 /* PBXTargetDependency */ = {
+		C5CC6480511D4781B28BC166 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE850A0986B942668A771D86 /* ZERO_CHECK */;
-			targetProxy = 58ABC15679FA46F3A53F8B09 /* PBXContainerItemProxy */;
+			target = F4BABD60A25C4EE6BDEDFE83 /* ZERO_CHECK */;
+			targetProxy = 2351BBCD076243FDAA25EFA6 /* PBXContainerItemProxy */;
+		};
+		E5C301CF55354FB79F4BDF9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961C39E2553345158302B640 /* leetcode_lib */;
+			targetProxy = 35EE882D1FFE4532B4F282CB /* PBXContainerItemProxy */;
+		};
+		F11870CC06DD43AE988F38B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961C39E2553345158302B640 /* leetcode_lib */;
+			targetProxy = 8E4D55F55DFC4B30A238F975 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D00182838D74F1890B890DD /* Debug */ = {
+		2156A6FB4AAF4310BC4CC02B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leetcode_lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		21FB1E4676854647B0E3BABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/Debug/libleetcode_lib.a";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = cpp;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
 				USE_HEADERMAP = NO;
@@ -391,7 +450,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		0D31FB091BF7448BBFA33A1C /* Release */ = {
+		3ECDA859539C4375BB4776A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -402,11 +461,11 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/cMake,/Users/2y2ssn/CLionProjects/cpp/src,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header);
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/Release/libleetcode_lib.a";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = cpp;
 				SECTORDER_FLAGS = "";
@@ -416,64 +475,44 @@ exit 0";
 			};
 			name = Release;
 		};
-		3A21C00266D5418C811419C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
-			};
-			name = Release;
-		};
-		3AAA32EB3BA4494A9BA9E49C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
-			};
-			name = Debug;
-		};
-		65BB72B0F4944DFAA1383407 /* RelWithDebInfo */ = {
+		450139EE284842E6927E7770 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		66F906C6362F4063815D35AB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/cMake,/Users/2y2ssn/CLionProjects/cpp/src,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header);
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = STATIC;
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cpp;
+				PRODUCT_NAME = leetcode_lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4C722C6EE1014F2A900EB97B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
 				USE_HEADERMAP = NO;
@@ -481,32 +520,57 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		7AD26830548242119517831E /* Debug */ = {
+		592B8D81535B4BFB958AE38B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/cMake,/Users/2y2ssn/CLionProjects/cpp/src,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header);
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
 				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = STATIC;
 				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cpp;
+				PRODUCT_NAME = leetcode_lib;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		82CB54E57D1549389CF7D1AB /* MinSizeRel */ = {
+		69D06133DDDF4EFE979E54DE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = leetcode_lib;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D483CE2C5CE4D16A0223EA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -524,49 +588,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		883D975BE0D841168A05B6C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		89B5F4B658714E86992274EC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		9C89117E05184D1981F737F8 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		9E0BD1A6B63E44E2BB613CEF /* RelWithDebInfo */ = {
+		92A06C138659462B916F3E33 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -586,47 +610,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		BFDCBF6C611E42B7A6B2088C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		C7107458DB20400EB36B461E /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		D32292515A7D48DA92EE82EB /* Release */ = {
+		9E4B74B04B69434D947FC1E6 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -644,9 +628,19 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		E2715B17BD1B430EB2A52DAF /* RelWithDebInfo */ = {
+		A4FE682717104B608EB66B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
+			};
+			name = Debug;
+		};
+		B0719EFC634F44B1B8AA168C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -657,13 +651,148 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/cMake,/Users/2y2ssn/CLionProjects/cpp/src,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp,/Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_header,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header);
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/RelWithDebInfo/libleetcode_lib.a";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BB6B83FF1AAD4FA0BA4CF9A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C1E65DACF2B14969B10AB2EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/2y2ssn/CLionProjects/cpp/.,/Users/2y2ssn/CLionProjects/cpp/src/until,/Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp,/Users/2y2ssn/CLionProjects/cpp/src/until/until_graph,/Users/2y2ssn/CLionProjects/cpp/src/until/until_header,/Users/2y2ssn/CLionProjects/cpp/src/etc,/Users/2y2ssn/CLionProjects/cpp/src/leetcode/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/src/leetcode/MinSizeRel/libleetcode_lib.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cpp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D46ADCF09B59457196B7C19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DE17D501312849918CB9FAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E6EC0E8AEB2949B9AD78C3F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		F0B8502BCDF3435A86EBECDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
+			};
+			name = Release;
+		};
+		F21A3C46AFFE4D46BE0FC697 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		FD9220F4B7474EA58DC955D0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/2y2ssn/CLionProjects/cpp/cpp_build_Xcode;
 				USE_HEADERMAP = NO;
@@ -674,51 +803,62 @@ exit 0";
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C7319ECCE8A4BBB96FD0989 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		4614B36A4F574EBE9A59A285 /* Build configuration list for PBXNativeTarget "leetcode_lib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFDCBF6C611E42B7A6B2088C /* Debug */,
-				883D975BE0D841168A05B6C3 /* Release */,
-				C7107458DB20400EB36B461E /* MinSizeRel */,
-				9E0BD1A6B63E44E2BB613CEF /* RelWithDebInfo */,
+				592B8D81535B4BFB958AE38B /* Debug */,
+				450139EE284842E6927E7770 /* Release */,
+				2156A6FB4AAF4310BC4CC02B /* MinSizeRel */,
+				69D06133DDDF4EFE979E54DE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6427B3BA27224ABDA7BE9CAF /* Build configuration list for PBXNativeTarget "cpp" */ = {
+		6B7EA6BFF02F4123ABFC9541 /* Build configuration list for PBXProject "cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AD26830548242119517831E /* Debug */,
-				0D31FB091BF7448BBFA33A1C /* Release */,
-				66F906C6362F4063815D35AB /* MinSizeRel */,
-				E2715B17BD1B430EB2A52DAF /* RelWithDebInfo */,
+				A4FE682717104B608EB66B73 /* Debug */,
+				F0B8502BCDF3435A86EBECDA /* Release */,
+				E6EC0E8AEB2949B9AD78C3F8 /* MinSizeRel */,
+				F21A3C46AFFE4D46BE0FC697 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		66CEBBFCB2E44EF3B1CE7CAB /* Build configuration list for PBXProject "cpp" */ = {
+		83AF372979B94D7F8BC4A790 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3AAA32EB3BA4494A9BA9E49C /* Debug */,
-				3A21C00266D5418C811419C2 /* Release */,
-				89B5F4B658714E86992274EC /* MinSizeRel */,
-				9C89117E05184D1981F737F8 /* RelWithDebInfo */,
+				8D483CE2C5CE4D16A0223EA6 /* Debug */,
+				BB6B83FF1AAD4FA0BA4CF9A3 /* Release */,
+				9E4B74B04B69434D947FC1E6 /* MinSizeRel */,
+				FD9220F4B7474EA58DC955D0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E0F4433DD6C1434CA8DE864D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		A267227F49B340EDB95D6EEA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D00182838D74F1890B890DD /* Debug */,
-				D32292515A7D48DA92EE82EB /* Release */,
-				82CB54E57D1549389CF7D1AB /* MinSizeRel */,
-				65BB72B0F4944DFAA1383407 /* RelWithDebInfo */,
+				D46ADCF09B59457196B7C19D /* Debug */,
+				DE17D501312849918CB9FAD0 /* Release */,
+				4C722C6EE1014F2A900EB97B /* MinSizeRel */,
+				92A06C138659462B916F3E33 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D323C92E8D3445AEA7EBE584 /* Build configuration list for PBXNativeTarget "cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FB1E4676854647B0E3BABC /* Debug */,
+				3ECDA859539C4375BB4776A7 /* Release */,
+				C1E65DACF2B14969B10AB2EA /* MinSizeRel */,
+				B0719EFC634F44B1B8AA168C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 12A71BBABD6348458A3AE536 /* Project object */;
+	rootObject = 5F73E7DF3410483084F97AF3 /* Project object */;
 }

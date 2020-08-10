@@ -74,32 +74,118 @@ CMAKE_BINARY_DIR = /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/cpp.dir/all
+all: src/leetcode/all
+all: src/until/all
+all: src/etc/all
+all: src/test/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/leetcode/preinstall
+preinstall: src/until/preinstall
+preinstall: src/etc/preinstall
+preinstall: src/test/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/cpp.dir/clean
+clean: src/leetcode/clean
+clean: src/until/clean
+clean: src/etc/clean
+clean: src/test/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/etc
+
+# Recursive "all" directory target.
+src/etc/all: src/etc/CMakeFiles/etc_lib.dir/all
+
+.PHONY : src/etc/all
+
+# Recursive "preinstall" directory target.
+src/etc/preinstall:
+
+.PHONY : src/etc/preinstall
+
+# Recursive "clean" directory target.
+src/etc/clean: src/etc/CMakeFiles/etc_lib.dir/clean
+
+.PHONY : src/etc/clean
+
+#=============================================================================
+# Directory level rules for directory src/leetcode
+
+# Recursive "all" directory target.
+src/leetcode/all: src/leetcode/CMakeFiles/leetcode_lib.dir/all
+
+.PHONY : src/leetcode/all
+
+# Recursive "preinstall" directory target.
+src/leetcode/preinstall:
+
+.PHONY : src/leetcode/preinstall
+
+# Recursive "clean" directory target.
+src/leetcode/clean: src/leetcode/CMakeFiles/leetcode_lib.dir/clean
+
+.PHONY : src/leetcode/clean
+
+#=============================================================================
+# Directory level rules for directory src/test
+
+# Recursive "all" directory target.
+src/test/all: src/test/CMakeFiles/test_lib.dir/all
+
+.PHONY : src/test/all
+
+# Recursive "preinstall" directory target.
+src/test/preinstall:
+
+.PHONY : src/test/preinstall
+
+# Recursive "clean" directory target.
+src/test/clean: src/test/CMakeFiles/test_lib.dir/clean
+
+.PHONY : src/test/clean
+
+#=============================================================================
+# Directory level rules for directory src/until
+
+# Recursive "all" directory target.
+src/until/all: src/until/CMakeFiles/until_lib.dir/all
+
+.PHONY : src/until/all
+
+# Recursive "preinstall" directory target.
+src/until/preinstall:
+
+.PHONY : src/until/preinstall
+
+# Recursive "clean" directory target.
+src/until/clean: src/until/CMakeFiles/until_lib.dir/clean
+
+.PHONY : src/until/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cpp.dir
 
 # All Build rule for target.
-CMakeFiles/cpp.dir/all:
+CMakeFiles/cpp.dir/all: src/leetcode/CMakeFiles/leetcode_lib.dir/all
+CMakeFiles/cpp.dir/all: src/until/CMakeFiles/until_lib.dir/all
+CMakeFiles/cpp.dir/all: src/etc/CMakeFiles/etc_lib.dir/all
+CMakeFiles/cpp.dir/all: src/test/CMakeFiles/test_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target cpp"
 .PHONY : CMakeFiles/cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cpp.dir/rule
@@ -113,6 +199,114 @@ cpp: CMakeFiles/cpp.dir/rule
 CMakeFiles/cpp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/clean
 .PHONY : CMakeFiles/cpp.dir/clean
+
+#=============================================================================
+# Target rules for target src/leetcode/CMakeFiles/leetcode_lib.dir
+
+# All Build rule for target.
+src/leetcode/CMakeFiles/leetcode_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/leetcode/CMakeFiles/leetcode_lib.dir/build.make src/leetcode/CMakeFiles/leetcode_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/leetcode/CMakeFiles/leetcode_lib.dir/build.make src/leetcode/CMakeFiles/leetcode_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target leetcode_lib"
+.PHONY : src/leetcode/CMakeFiles/leetcode_lib.dir/all
+
+# Build rule for subdir invocation for target.
+src/leetcode/CMakeFiles/leetcode_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/leetcode/CMakeFiles/leetcode_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : src/leetcode/CMakeFiles/leetcode_lib.dir/rule
+
+# Convenience name for target.
+leetcode_lib: src/leetcode/CMakeFiles/leetcode_lib.dir/rule
+
+.PHONY : leetcode_lib
+
+# clean rule for target.
+src/leetcode/CMakeFiles/leetcode_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/leetcode/CMakeFiles/leetcode_lib.dir/build.make src/leetcode/CMakeFiles/leetcode_lib.dir/clean
+.PHONY : src/leetcode/CMakeFiles/leetcode_lib.dir/clean
+
+#=============================================================================
+# Target rules for target src/until/CMakeFiles/until_lib.dir
+
+# All Build rule for target.
+src/until/CMakeFiles/until_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/until/CMakeFiles/until_lib.dir/build.make src/until/CMakeFiles/until_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/until/CMakeFiles/until_lib.dir/build.make src/until/CMakeFiles/until_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16,17 "Built target until_lib"
+.PHONY : src/until/CMakeFiles/until_lib.dir/all
+
+# Build rule for subdir invocation for target.
+src/until/CMakeFiles/until_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/until/CMakeFiles/until_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : src/until/CMakeFiles/until_lib.dir/rule
+
+# Convenience name for target.
+until_lib: src/until/CMakeFiles/until_lib.dir/rule
+
+.PHONY : until_lib
+
+# clean rule for target.
+src/until/CMakeFiles/until_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/until/CMakeFiles/until_lib.dir/build.make src/until/CMakeFiles/until_lib.dir/clean
+.PHONY : src/until/CMakeFiles/until_lib.dir/clean
+
+#=============================================================================
+# Target rules for target src/etc/CMakeFiles/etc_lib.dir
+
+# All Build rule for target.
+src/etc/CMakeFiles/etc_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/etc/CMakeFiles/etc_lib.dir/build.make src/etc/CMakeFiles/etc_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/etc/CMakeFiles/etc_lib.dir/build.make src/etc/CMakeFiles/etc_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target etc_lib"
+.PHONY : src/etc/CMakeFiles/etc_lib.dir/all
+
+# Build rule for subdir invocation for target.
+src/etc/CMakeFiles/etc_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/etc/CMakeFiles/etc_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : src/etc/CMakeFiles/etc_lib.dir/rule
+
+# Convenience name for target.
+etc_lib: src/etc/CMakeFiles/etc_lib.dir/rule
+
+.PHONY : etc_lib
+
+# clean rule for target.
+src/etc/CMakeFiles/etc_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/etc/CMakeFiles/etc_lib.dir/build.make src/etc/CMakeFiles/etc_lib.dir/clean
+.PHONY : src/etc/CMakeFiles/etc_lib.dir/clean
+
+#=============================================================================
+# Target rules for target src/test/CMakeFiles/test_lib.dir
+
+# All Build rule for target.
+src/test/CMakeFiles/test_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/test/CMakeFiles/test_lib.dir/build.make src/test/CMakeFiles/test_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/test/CMakeFiles/test_lib.dir/build.make src/test/CMakeFiles/test_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target test_lib"
+.PHONY : src/test/CMakeFiles/test_lib.dir/all
+
+# Build rule for subdir invocation for target.
+src/test/CMakeFiles/test_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/test/CMakeFiles/test_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : src/test/CMakeFiles/test_lib.dir/rule
+
+# Convenience name for target.
+test_lib: src/test/CMakeFiles/test_lib.dir/rule
+
+.PHONY : test_lib
+
+# clean rule for target.
+src/test/CMakeFiles/test_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/test/CMakeFiles/test_lib.dir/build.make src/test/CMakeFiles/test_lib.dir/clean
+.PHONY : src/test/CMakeFiles/test_lib.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

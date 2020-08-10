@@ -1,0 +1,11 @@
+// the configured options and settings for Tutorial
+#ifndef INCLUDE_GUARD
+#define INCLUDE_GUARD
+
+#define cpp_PROJECT_NAME "@PROJECT_NAME@"
+#define cpp_VERSION  "@PROJECT_VERSION@"
+#define cpp_VERSION_MAJOR "@cpp_VERSION_MAJOR@"
+#define cpp_VERSION_MINOR "@cpp_VERSION_MINOR@"
+#define cpp_VERSION_PATCH "@cpp_VERSION_PATCH@"
+
+#endif // INCLUDE_GUARD

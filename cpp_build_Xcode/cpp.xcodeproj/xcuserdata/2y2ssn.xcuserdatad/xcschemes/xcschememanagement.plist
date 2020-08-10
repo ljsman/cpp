@@ -7,30 +7,22 @@
 		<key>ALL_BUILD.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ZERO_CHECK.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>cpp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>032A56BBD4DD4FA38CBEC085</key>
+		<key>leetcode_lib.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9AEAAF74830B4ABDB0CBE8B1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

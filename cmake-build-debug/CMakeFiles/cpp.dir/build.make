@@ -77,139 +77,9 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.o: ../src/leetcode_problems/leetcode_cpp/dice_roll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp
-
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp > CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.i
-
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/dice_roll.cpp -o CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.s
-
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.o: ../src/leetcode_problems/leetcode_cpp/solution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp
-
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp > CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.i
-
-CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/leetcode_problems/leetcode_cpp/solution.cpp -o CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.o: ../src/until/until_cpp/bfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/bfs.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.o: ../src/until/until_cpp/dp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/dp.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.o: ../src/until/until_cpp/list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/list.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.o: ../src/until/until_cpp/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/node.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.o: ../src/until/until_cpp/project_etc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/project_etc.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.o: ../src/until/until_cpp/test_space.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/test_space.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.o: ../src/until/until_cpp/UnionFind.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp
-
-CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp > CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_cpp/UnionFind.cpp -o CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.s
-
-CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.o: ../src/until/until_graph/graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp
-
-CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp > CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.i
-
-CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/until/until_graph/graph.cpp -o CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.s
-
 CMakeFiles/cpp.dir/src/main.cpp.o: CMakeFiles/cpp.dir/flags.make
 CMakeFiles/cpp.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cpp.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/main.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/main.cpp
 
 CMakeFiles/cpp.dir/src/main.cpp.i: cmake_force
@@ -220,52 +90,21 @@ CMakeFiles/cpp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/main.cpp -o CMakeFiles/cpp.dir/src/main.cpp.s
 
-CMakeFiles/cpp.dir/src/etc/temp.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/src/etc/temp.cpp.o: ../src/etc/temp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cpp.dir/src/etc/temp.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/src/etc/temp.cpp.o -c /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp
-
-CMakeFiles/cpp.dir/src/etc/temp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/src/etc/temp.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp > CMakeFiles/cpp.dir/src/etc/temp.cpp.i
-
-CMakeFiles/cpp.dir/src/etc/temp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/src/etc/temp.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/2y2ssn/CLionProjects/cpp/src/etc/temp.cpp -o CMakeFiles/cpp.dir/src/etc/temp.cpp.s
-
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.o" \
-"CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.o" \
-"CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.o" \
-"CMakeFiles/cpp.dir/src/main.cpp.o" \
-"CMakeFiles/cpp.dir/src/etc/temp.cpp.o"
+"CMakeFiles/cpp.dir/src/main.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/dice_roll.cpp.o
-cpp: CMakeFiles/cpp.dir/src/leetcode_problems/leetcode_cpp/solution.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/bfs.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/dp.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/list.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/node.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/project_etc.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/test_space.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_cpp/UnionFind.cpp.o
-cpp: CMakeFiles/cpp.dir/src/until/until_graph/graph.cpp.o
 cpp: CMakeFiles/cpp.dir/src/main.cpp.o
-cpp: CMakeFiles/cpp.dir/src/etc/temp.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
+cpp: src/leetcode/libleetcode_lib.a
+cpp: src/until/libuntil_lib.a
+cpp: src/etc/libetc_lib.a
+cpp: src/test/libtest_lib.a
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/2y2ssn/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
