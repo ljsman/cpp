@@ -16,6 +16,7 @@ struct node
     node* next;
     node()=delete;
     ~node();
+  node(int, node*);
     operator int () const
     {
         return data;

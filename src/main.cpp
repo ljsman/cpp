@@ -5,9 +5,11 @@
 //  Copyright © 2020 Jinshi-Li. All rights reserved.
 
 #include <iostream>
+#include <stdio.h>
 #include "cppConfig.h"
-using namespace std;
+#include "until/test_space.hpp"
 
+using namespace std;
 void print_projectinfo(int argc, const char* argv[])
 {
     if (argc < 2) {
@@ -36,7 +38,13 @@ void print_projectinfo(int argc, const char* argv[])
 int main(int argc, const char * argv[])
 {
     print_projectinfo(argc, argv);
-
-    std::cout << "Hello, World!" << std::endl;
+    string str;
+    while(cin >> str)
+    {
+        cout << str;
+    }
+    //test_space ts;
+    //ts.test_lcs();
+    std::cout << "End of the program!!!" << std::endl;
     return 0;
 }

@@ -9,7 +9,7 @@
 #ifndef graph_hpp
 #define graph_hpp
 #include "project_etc.hpp"
-
+#include <memory>
 struct edge
 {
     int src, des;

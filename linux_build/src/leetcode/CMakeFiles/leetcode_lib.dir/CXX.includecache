@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/leetcode/include/leetcode/dice_roll.hpp
+leetcode/solution.hpp
+../src/leetcode/include/leetcode/leetcode/solution.hpp
+
+../src/leetcode/include/leetcode/solution.hpp
+stdio.h
+-
+vector
+-
+
+/home/toy/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp
+leetcode/dice_roll.hpp
+/home/toy/CLionProjects/cpp/src/leetcode/source/leetcode/dice_roll.hpp
+
+/home/toy/CLionProjects/cpp/src/leetcode/source/solution.cpp
+leetcode/solution.hpp
+/home/toy/CLionProjects/cpp/src/leetcode/source/leetcode/solution.hpp
+

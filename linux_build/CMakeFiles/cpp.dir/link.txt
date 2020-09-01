@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cpp.dir/src/main.cpp.o  -o cpp  src/leetcode/libleetcode_lib.a src/until/libuntil_lib.a src/etc/libetc_lib.a src/test/libtest_lib.a 

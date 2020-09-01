@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/etc/include/etc/temp.h
+
+/home/toy/CLionProjects/cpp/src/etc/source/temp.cpp
+etc/temp.h
+/home/toy/CLionProjects/cpp/src/etc/source/etc/temp.h
+

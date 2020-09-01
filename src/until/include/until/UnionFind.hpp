@@ -17,10 +17,10 @@ using Edges = std::vector<std::vector<int>>;
 class UnionFind
 {
     int nodes;
-    Edges& edges;
+    const Edges& edges;
 public:
-    UnionFind(int arg_nodes, Edges& arg_edge)
-    : nodes{arg_nodes}, edges{arg_edge}
+    UnionFind(const int arg_nodes, const Edges& arg_edge)
+      : nodes{arg_nodes}, edges{arg_edge}
     { /*printf("UnionFind ctor\n");*/}
     
     //node is the current node that we are interested to find its root for.

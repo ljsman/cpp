@@ -8,7 +8,9 @@ add_library(until_lib
                 source/list.cpp
                 source/node.cpp
                 source/test_space.cpp
-                source/UnionFind.cpp)
+                source/UnionFind.cpp
+                source/binary_tree.cpp
+                source/tree_node.cpp)
 
 target_include_directories(until_lib
                                 PUBLIC

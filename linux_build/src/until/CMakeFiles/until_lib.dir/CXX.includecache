@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/until/include/until/tree_node.h
+
+/home/toy/CLionProjects/cpp/src/until/source/tree_node.cpp
+until/tree_node.h
+/home/toy/CLionProjects/cpp/src/until/source/until/tree_node.h
+

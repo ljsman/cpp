@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="leetcode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\leetcode\;CMake Files\src\until\;CMake Files\src\etc\;CMake Files\src\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/toy/CLionProjects/cpp/linux_build/src/leetcode"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode_lib">
+				<Option output="/home/toy/CLionProjects/cpp/linux_build/src/leetcode/libleetcode_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/toy/CLionProjects/cpp/linux_build/src/leetcode"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/toy/CLionProjects/cpp/src/leetcode/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 leetcode_lib"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="leetcode_lib/fast">
+				<Option output="/home/toy/CLionProjects/cpp/linux_build/src/leetcode/libleetcode_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/toy/CLionProjects/cpp/linux_build/src/leetcode"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/toy/CLionProjects/cpp/src/leetcode/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 leetcode_lib/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/toy/CLionProjects/cpp/linux_build/src/leetcode/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/toy/CLionProjects/cpp/src/leetcode/source/dice_roll.cpp">
+			<Option target="leetcode_lib"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/src/leetcode/source/solution.cpp">
+			<Option target="leetcode_lib"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/cppConfig.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/src/leetcode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\leetcode\"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/src/until/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\until\"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/src/etc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\etc\"/>
+		</Unit>
+		<Unit filename="/home/toy/CLionProjects/cpp/src/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

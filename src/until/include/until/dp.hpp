@@ -27,7 +27,7 @@ public:
     
     ~dp()
     {
-        printf("Destructor dp\n");
+        //printf("Destructor dp\n");
         if(mem) delete mem;
     }
     

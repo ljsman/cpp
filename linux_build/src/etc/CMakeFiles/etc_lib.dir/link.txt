@@ -1,0 +1,2 @@
+/usr/bin/ar qc libetc_lib.a  CMakeFiles/etc_lib.dir/source/temp.cpp.o
+/usr/bin/ranlib libetc_lib.a
