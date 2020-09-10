@@ -10,7 +10,8 @@ add_library(until_lib
                 source/test_space.cpp
                 source/UnionFind.cpp
                 source/binary_tree.cpp
-                source/tree_node.cpp)
+                source/tree_node.cpp
+                source/merge_sort.cpp)
 
 target_include_directories(until_lib
                                 PUBLIC

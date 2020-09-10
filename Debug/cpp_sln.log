@@ -1,0 +1,34 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1016,5): warning MSB8027: Two or more files with the name of CMakeCXXCompilerId.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are cmake-build-debug\cmakefiles\3.16.5\compileridcxx\CMakeCXXCompilerId.cpp, linux_build\cmakefiles\3.17.3\compileridcxx\CMakeCXXCompilerId.cpp, linux_build\cmakefiles\3.18.1\compileridcxx\CMakeCXXCompilerId.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1016,5): warning MSB8027: Two or more files with the name of CMakeCCompilerId.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are cmake-build-debug\cmakefiles\3.16.5\compileridc\CMakeCCompilerId.c, linux_build\cmakefiles\3.17.3\compileridc\CMakeCCompilerId.c, linux_build\cmakefiles\3.18.1\compileridc\CMakeCCompilerId.c.
+  CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+  feature_tests.cxx
+  temp.cpp
+E:\C++Project\cpp\src\etc\source\temp.cpp(5,10): fatal error C1083: Cannot open include file: 'etc/temp.h': No such file or directory
+  dice_roll.cpp
+E:\C++Project\cpp\src\leetcode\source\dice_roll.cpp(9,10): fatal error C1083: Cannot open include file: 'leetcode/dice_roll.hpp': No such file or directory
+  solution.cpp
+E:\C++Project\cpp\src\leetcode\source\solution.cpp(9,10): fatal error C1083: Cannot open include file: 'leetcode/solution.hpp': No such file or directory
+  main.cpp
+E:\C++Project\cpp\src\main.cpp(9,10): fatal error C1083: Cannot open include file: 'cppConfig.h': No such file or directory
+  test.cpp
+  bfs.cpp
+E:\C++Project\cpp\src\until\source\bfs.cpp(9,10): fatal error C1083: Cannot open include file: 'until/bfs.hpp': No such file or directory
+  binary_tree.cpp
+E:\C++Project\cpp\src\until\source\binary_tree.cpp(5,10): fatal error C1083: Cannot open include file: 'until/binary_tree.h': No such file or directory
+  dp.cpp
+E:\C++Project\cpp\src\until\source\dp.cpp(9,10): fatal error C1083: Cannot open include file: 'until/dp.hpp': No such file or directory
+  graph.cpp
+E:\C++Project\cpp\src\until\source\graph.cpp(8,10): fatal error C1083: Cannot open include file: 'until/graph.hpp': No such file or directory
+  list.cpp
+E:\C++Project\cpp\src\until\source\list.cpp(9,10): fatal error C1083: Cannot open include file: 'until/list.hpp': No such file or directory
+  node.cpp
+E:\C++Project\cpp\src\until\source\node.cpp(9,10): fatal error C1083: Cannot open include file: 'until/node.hpp': No such file or directory
+  test_space.cpp
+E:\C++Project\cpp\src\until\source\test_space.cpp(9,10): fatal error C1083: Cannot open include file: 'until/test_space.hpp': No such file or directory
+  tree_node.cpp
+E:\C++Project\cpp\src\until\source\tree_node.cpp(5,10): fatal error C1083: Cannot open include file: 'until/tree_node.h': No such file or directory
+  UnionFind.cpp
+E:\C++Project\cpp\src\until\source\UnionFind.cpp(9,10): fatal error C1083: Cannot open include file: 'until/UnionFind.hpp': No such file or directory
+  Generating Code...

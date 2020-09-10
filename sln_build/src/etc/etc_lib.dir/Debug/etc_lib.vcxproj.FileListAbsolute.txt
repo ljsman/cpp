@@ -1,0 +1,2 @@
+E:\C++Project\cpp\sln_build\src\etc\Debug\etc_lib.pdb
+E:\C++Project\cpp\sln_build\src\etc\etc_lib.dir\Debug\etc_lib.pdb

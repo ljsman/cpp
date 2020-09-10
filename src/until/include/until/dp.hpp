@@ -72,9 +72,9 @@ public:
         auto y_size = y.size() + 1;
         std::vector<std::vector<int>> vect_2d(x_size, std::vector<int>(y_size, 0));
         
-        for(int o = 0; o < x_size; ++o)
+        for(size_t o = 0; o < x_size; ++o)
         {
-            for(int i = 0; i < y_size; ++i)
+            for(size_t i = 0; i < y_size; ++i)
             {
                 if( o == 0 || i == 0)
                 {
