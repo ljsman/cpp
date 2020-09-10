@@ -5,3 +5,5 @@ cpp_build_Xcode/
 src/.DS_Store
 .DS_Store
 READ.rtf
+Debug/
+.vs/
