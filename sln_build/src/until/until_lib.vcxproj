@@ -275,6 +275,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="E:\C++Project\cpp\src\until\source\binary_tree.cpp" />
     <ClCompile Include="E:\C++Project\cpp\src\until\source\tree_node.cpp" />
     <ClCompile Include="E:\C++Project\cpp\src\until\source\merge_sort.cpp" />
+    <ClCompile Include="E:\C++Project\cpp\src\until\source\my_vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:\C++Project\cpp\sln_build\ZERO_CHECK.vcxproj">

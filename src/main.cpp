@@ -5,14 +5,16 @@
 //  Copyright © 2020 Jinshi-Li. All rights reserved.
 
 #include <iostream>
-#include <iomanip>
 #include <fstream>
 #include <stdio.h>
 #include "cppConfig.h"
 #include "until/test_space.hpp"
 #include <climits>
+#include "until/my_vector.h"
 
-using namespace std;
+#include <boost/container/vector.hpp>
+#include <boost/container/string.hpp>
+//using namespace std;
 
 struct Node
 {
@@ -102,29 +104,22 @@ void print_projectinfo(int argc, const char* argv[])
     }
 }
 
+template <class ... T>
+void template_test(T ... args)
+{
+    const auto size = sizeof ...(args);
+    int res[size] = { args ... };
+    for(int i = 0; i < size; ++i)
+    {
+        cout << res[i] << endl;
+    }
+}
+
 
 int main(int argc, const char * argv[])
 {
     print_projectinfo(argc, argv);
 
-    /*{
-        me_node mn(10, 100);
-    }*/
-    
-
-
-
-    char chr0 = 'd';
-    char& char_ref = chr0;
-    char* char_ptr = &chr0;
-    auto size_char = sizeof(chr0);
-    auto size_ref = sizeof(char_ref);
-    auto size_ptr = sizeof(char_ptr);
-   
-    printf("The address of chr0 %p\n", &chr0);
-    printf("The address of char_ptr %p\n", &char_ptr);
-    //test_space ts;
-    //ts.test_lcs();
     std::cout << "End of the program!!!" << std::endl;
     return 0;
 }

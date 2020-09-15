@@ -11,7 +11,8 @@ add_library(until_lib
                 source/UnionFind.cpp
                 source/binary_tree.cpp
                 source/tree_node.cpp
-                source/merge_sort.cpp)
+                source/merge_sort.cpp
+                source/my_vector.cpp)
 
 target_include_directories(until_lib
                                 PUBLIC
