@@ -1,2 +1,0 @@
-/usr/bin/ar qc libleetcode_lib.a  CMakeFiles/leetcode_lib.dir/source/dice_roll.cpp.o CMakeFiles/leetcode_lib.dir/source/solution.cpp.o
-/usr/bin/ranlib libleetcode_lib.a

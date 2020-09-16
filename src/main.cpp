@@ -12,8 +12,8 @@
 #include <climits>
 #include "until/my_vector.h"
 
-#include <boost/container/vector.hpp>
-#include <boost/container/string.hpp>
+//#include <boost/container/vector.hpp>
+//#include <boost/container/string.hpp>
 //using namespace std;
 
 struct Node
@@ -121,5 +121,6 @@ int main(int argc, const char * argv[])
     print_projectinfo(argc, argv);
 
     std::cout << "End of the program!!!" << std::endl;
+    getchar();
     return 0;
 }
