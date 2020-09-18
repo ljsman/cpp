@@ -11,9 +11,10 @@
 #include "until/test_space.hpp"
 #include <climits>
 #include "until/my_vector.h"
-
-#include <boost/container/vector.hpp>
-#include <boost/container/string.hpp>
+#include "until/toy_tree.h"
+//
+//#include <boost/container/vector.hpp>
+//#include <boost/container/string.hpp>
 //using namespace std;
 
 struct Node
@@ -116,9 +117,12 @@ void template_test(T ... args)
 }
 
 
+#include<vector>
 int main(int argc, const char * argv[])
 {
     print_projectinfo(argc, argv);
+    std::vector<int> vect{1,2,3,4,5};
+    toy_tree tt{vect};
 
     std::cout << "End of the program!!!" << std::endl;
     return 0;

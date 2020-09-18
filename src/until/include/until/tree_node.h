@@ -7,12 +7,14 @@
 
 
 class tree_node {
+public:
     int data;
     tree_node* left_child;
     tree_node* right_child;
     tree_node* parent;
 public:
     tree_node(int, tree_node*, tree_node*, tree_node*);
+    tree_node(const int&, const tree_node*, const tree_node*);
     tree_node() = delete;
     ~tree_node();
 };
