@@ -11,12 +11,12 @@ class toy_tree
 	tree_node* head;
 	std::vector<tree_node*> ptr_vect;
 
-	tree_node* create_node(const int& data, const tree_node* left_child, const tree_node* right_child)
+	tree_node* create_node(int& data, tree_node* left_child, tree_node* right_child)
 	{
 		return new tree_node(data, left_child, right_child);
 	}
 
-	void construct_tree(const std::vector<int>& int_array)
+	void construct_tree(std::vector<int>& int_array)
 	{
 		//guard
 		if (int_array.empty()) return;
@@ -57,8 +57,8 @@ class toy_tree
 	}
 
 public:
-	tree_node() = delete;
-	~tree_node()
+	toy_tree() = delete;
+	~toy_tree()
 	{
 		for(auto itr = std::begin(this->ptr_vect); itr != std::end(this->ptr_vect); ++itr)
 		{
@@ -66,7 +66,7 @@ public:
 				delete *itr;
 		}
 	}
-	tree_node(const std::vector<int>& int_vect) : head{}, ptr_vect{}
+	toy_tree(std::vector<int>& int_vect) : head{}, ptr_vect{}
 	{
 		printf("Constructing tree...\n");
 		construct_tree(int_vect);

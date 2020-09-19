@@ -14,7 +14,7 @@ public:
     tree_node* parent;
 public:
     tree_node(int, tree_node*, tree_node*, tree_node*);
-    tree_node(const int&, const tree_node*, const tree_node*);
+    tree_node(int&, tree_node*, tree_node*);
     tree_node() = delete;
     ~tree_node();
 };

@@ -122,7 +122,7 @@ int main(int argc, const char * argv[])
 {
     print_projectinfo(argc, argv);
     std::vector<int> vect{1,2,3,4,5};
-    toy_tree tt{vect};
+    //toy_tree tt{vect};
 
     std::cout << "End of the program!!!" << std::endl;
     return 0;
