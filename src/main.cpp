@@ -17,67 +17,6 @@
 //#include <boost/container/string.hpp>
 //using namespace std;
 
-struct Node
-{
-    int data;
-    int* ptr;
-    Node() : data{0}, ptr{ &data }
-    {
-        cout << "This is Node default cotr" << endl;
-    }
-    Node(int tmp) : data{ tmp }, ptr{ &data }
-    {
-        cout << "This is the Node cotr" << endl;
-    }
-    ~Node()
-    {
-        cout << "This is the Node Destructor" << endl;
-    }
-};
-
-struct Node_0: public Node
-{
-    int data;
-    int* ptr;
-    Node_0() : data{ 0 }, ptr{&data}
-    {
-        cout << "This is Node_0 default ctor" << endl;
-    }
-    Node_0(int tmp) : data{tmp}, ptr{ &data }
-    {
-        cout << "This is the Node_0 cotr" << endl;
-    }
-	~Node_0()
-	{
-		cout << "This is the Node_0 Destructor" << endl;
-	}
-};
-
-struct Node_0_drived : virtual Node_0, virtual Node
-{
-    Node_0_drived(int tmp) : Node{ tmp }, Node_0{tmp}
-    {
-        cout << "This is the Node_0_drived cotr" << endl;
-    }
-};
-
-struct Node_1_drived : virtual  Node_0
-{
-	Node_1_drived(int tmp) : Node_0{ tmp }
-	{
-		cout << "This is the Node_1_drived cotr" << endl;
-	}
-};
-
-
-class me_node : virtual public Node_0_drived //, virtual public Node_1_drived
-{
-public:
-    me_node(int tmp, int tmp0) : Node_0_drived{tmp} //, Node_1_drived{tmp0}
-    {
-        cout << "This is the me_node cotr" << endl;
-    }
-};
 
 void print_projectinfo(int argc, const char* argv[])
 {
@@ -104,18 +43,6 @@ void print_projectinfo(int argc, const char* argv[])
                 << " number" << std::endl;
     }
 }
-
-template <class ... T>
-void template_test(T ... args)
-{
-    const auto size = sizeof ...(args);
-    int res[size] = { args ... };
-    for(int i = 0; i < size; ++i)
-    {
-        cout << res[i] << endl;
-    }
-}
-
 
 #include<vector>
 int main(int argc, const char * argv[])
