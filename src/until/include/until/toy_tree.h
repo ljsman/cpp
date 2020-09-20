@@ -57,7 +57,7 @@ class toy_tree
 	}
 
 public:
-	toy_tree() = delete;
+	toy_tree() = default;
 	~toy_tree()
 	{
 		for(auto itr = std::begin(this->ptr_vect); itr != std::end(this->ptr_vect); ++itr)
