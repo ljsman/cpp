@@ -1,4 +1,7 @@
-//
+vect
+vector
+vec*tor
+//vec*tor
 //  main.cpp
 //  cpp
 //  Created by Jinshi-Li on 7/24/20.
