@@ -1,2 +1,0 @@
-E:\C++Project\cpp\sln_build\src\until\Debug\until_lib.pdb
-E:\C++Project\cpp\sln_build\src\until\until_lib.dir\Debug\until_lib.pdb
