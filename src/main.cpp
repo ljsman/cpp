@@ -1,7 +1,3 @@
-vect
-vector
-vec*tor
-//vec*tor
 //  main.cpp
 //  cpp
 //  Created by Jinshi-Li on 7/24/20.
@@ -56,10 +52,6 @@ int main(int argc, const char * argv[])
     print_projectinfo(argc, argv);
     //std::vector<int> vect{1,2,3,4,5};
     //toy_tree tt;
-
-    tree_node a{10, nullptr, nullptr, nullptr};
-
-    auto b = a;
 
     std::cout << "End of the program!!!" << std::endl;
     return 0;
