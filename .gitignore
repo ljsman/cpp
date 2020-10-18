@@ -7,4 +7,3 @@ src/.DS_Store
 READ.rtf
 Debug/
 .vs/
-#sparse-checkout test
