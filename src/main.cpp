@@ -39,11 +39,16 @@ void print_project_info(int argc, const char* argv[])
 
 //application headers
 #include<vector>
-
+#include "virtual_ctor_design.h"
 int main(int argc, const char * argv[])
 {
     print_project_info(argc, argv);
 
-    getchar();
+    Derived d{101, 102};
+    Base* base = (Base*) (&d);
+    //Base* base = new Base{100};
+    //std::unique_ptr<Base> uptr (d.get_base());
+    //virtual_ctor_design::copy_from_base_ptr( uptr);
+    virtual_ctor_design::copy_from_base_ptr(d.get_base());
     return 0;
 }

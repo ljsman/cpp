@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 project(cpp VERSION 1.0.0)
 configure_file(cppConfig.h.in cppConfig.h)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 #Tell CMake what subdirectories we want look into and build
