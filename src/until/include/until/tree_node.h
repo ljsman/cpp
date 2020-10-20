@@ -7,12 +7,22 @@
 
 
 class tree_node {
+public:
     int data;
     tree_node* left_child;
     tree_node* right_child;
     tree_node* parent;
 public:
+    //copy
+    tree_node(const tree_node&);
+    tree_node operator = (const tree_node&);
+
+    //optimized copy
+    tree_node(tree_node&&) noexcept;
+    tree_node operator = (tree_node&&) noexcept;
+
     tree_node(int, tree_node*, tree_node*, tree_node*);
+    tree_node(int&, tree_node*, tree_node*);
     tree_node() = delete;
     ~tree_node();
 };

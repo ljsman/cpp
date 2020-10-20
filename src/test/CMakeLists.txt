@@ -1,2 +1,6 @@
+project(test)
+
 add_library(test_lib
-        test.cpp)
+        source/test.cpp)
+
+target_include_directories(test_lib PUBLIC include)
