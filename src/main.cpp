@@ -52,3 +52,4 @@ int main(int argc, const char * argv[])
     virtual_ctor_design::copy_from_base_ptr(d.get_base());
     return 0;
 }
+//End of program
