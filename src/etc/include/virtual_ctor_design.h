@@ -19,6 +19,8 @@ class Base
 {
     int data;
 public:
+
+    Base() = default;
     Base(int arg_data) : data{arg_data}
     {
         std::cout << "Base Ctor" << std::endl;
@@ -28,7 +30,7 @@ public:
         std::cout << "Base dtor" << std::endl;
     };
 
-    //virtual
+    virtual
     Base* clone() const
     {
         std::cout << "This is the Base class clone()" << std::endl;
@@ -46,6 +48,7 @@ class Derived : protected Base
     int data;
     int data0;
 public:
+
     Derived(int arg_data, int arg_data0) : Base{arg_data},
             data{arg_data}, data0{arg_data0}
     {
@@ -70,7 +73,7 @@ public:
 
 class virtual_ctor_design {
 public:
-    static void copy_from_base_ptr(std::unique_ptr<Base>& original)
+    static void copy_from_base_ptr(std::unique_ptr<Base>&& original)
     {
         std::unique_ptr<Base> copy {original->clone()};
 
