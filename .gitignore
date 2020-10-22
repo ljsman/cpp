@@ -1,6 +1,6 @@
 .idea/
 .linux_build/
-cmake-build-debug/
+#cmake-build-debug/
 cpp_build_Xcode/
 src/.DS_Store
 .DS_Store

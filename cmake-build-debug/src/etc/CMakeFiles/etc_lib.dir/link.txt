@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libetc_lib.a  CMakeFiles/etc_lib.dir/source/temp.cpp.o CMakeFiles/etc_lib.dir/source/virtual_ctor_design.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libetc_lib.a
