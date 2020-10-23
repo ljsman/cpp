@@ -17,10 +17,11 @@
 
 class Base
 {
+protected:
     int data;
 public:
 
-    Base() = default;
+    Base() {};
     Base(int arg_data) : data{arg_data}
     {
         std::cout << "Base Ctor" << std::endl;
@@ -48,6 +49,8 @@ class Derived : protected Base
     int data;
     int data0;
 public:
+    Derived() : Base()
+    {}
 
     Derived(int arg_data, int arg_data0) : Base{arg_data},
             data{arg_data}, data0{arg_data0}
@@ -69,6 +72,16 @@ public:
     {
         return Base::return_this();
     }
+
+    auto get_second() const
+    {
+        return this->data0;
+    }
+
+    auto get_base_data() const{
+
+        return Base::data;
+    }
 };
 
 class virtual_ctor_design {
@@ -83,6 +96,28 @@ public:
     {
         std::unique_ptr<Base> copy {original->clone()};
     }
+
+    static void ptr_cast_practice()
+    {
+        std::shared_ptr<Base> base_ptr;
+        std::shared_ptr<Derived> derived_ptr;
+
+        std::cout << "Before the cast base " << base_ptr.use_count() << std::endl;
+        std::cout << "Before the cast derived " << derived_ptr.use_count() << std::endl;
+
+        derived_ptr = std::static_pointer_cast<Derived>(std::make_shared<Base>(200));
+        std::cout << derived_ptr->get_second() << std::endl;
+        std::cout << derived_ptr->get_base_data() << std::endl;
+        //base_ptr.reset();
+
+        std::shared_ptr<Derived> new_shared = std::make_shared<Derived>(100, 102);
+
+        //derived_ptr.reset();
+
+		std::cout << "After the cast base " << base_ptr.use_count() << std::endl;
+		std::cout << "After the cast derived " << derived_ptr.use_count() << std::endl;
+
+     }
 };
 
 

@@ -45,7 +45,7 @@ build cmake_object_order_depends_target_cpp_Debug: phony || cmake_object_order_d
 
 build CMakeFiles\cpp.dir\src\main.cpp.obj: CXX_COMPILER__cpp_Debug ..\..\..\src\main.cpp || cmake_object_order_depends_target_cpp_Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   -std:c++14
-  INCLUDES = -I. -I..\..\..\src\test -I..\..\..\src\leetcode\include -I..\..\..\src\until\include -I..\..\..\src\etc\include -I..\..\..\src\test\include
+  INCLUDES = -I. -I..\..\..\ -I..\..\..\src\leetcode\include -I..\..\..\src\until\include -I..\..\..\src\etc\include -I..\..\..\src\test\include
   OBJECT_DIR = CMakeFiles\cpp.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\cpp.dir\

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(cpp VERSION 1.0.0)
+project(cpp VERSION 1.0)
 configure_file(cppConfig.h.in cppConfig.h)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -10,6 +10,7 @@ add_subdirectory(src/leetcode)
 add_subdirectory(src/until)
 add_subdirectory(src/etc)
 add_subdirectory(src/test)
+
 #From main.cpp we can kick-off the project execution
 add_executable(cpp
                 src/main.cpp
@@ -22,8 +23,10 @@ target_link_libraries(cpp
                         etc_lib
                         test_lib
         )
+message("This is the BINARY FILE ${PROJECT_BINARY_DIR}")
+message("This is the SOURCE FILE ${PROJECT_SOURCE_DIR}")
 
 target_include_directories(cpp PUBLIC
                             ${PROJECT_BINARY_DIR}
-        ${PROJECT_SOURCE_DIR}/src/test
+        		    ${PROJECT_SOURCE_DIR}
         )

@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1.0.0"
+			"value" : "1.0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -743,7 +743,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "0"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
@@ -1108,6 +1108,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "E:/C++Project/cpp"
+		},
+		{
+			"name" : "etc_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/C++Project/cpp/out/build/x64-Debug (default)/src/etc"
+		},
+		{
+			"name" : "etc_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "E:/C++Project/cpp/src/etc"
 		},
 		{
 			"name" : "leetcode_BINARY_DIR",
