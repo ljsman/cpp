@@ -5,7 +5,7 @@
 //system headers
 #include <iostream>
 #include <fstream>
-#include <stdio.h>
+#include <cstdio>
 #include "cppConfig.h"
 #include <climits>
 //#include <boost/container/vector.hpp>
