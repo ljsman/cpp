@@ -11,7 +11,6 @@
 
 #ifndef CPP_VIRTUAL_CTOR_DESIGN_H
 #define CPP_VIRTUAL_CTOR_DESIGN_H
-
 #include <iostream>
 #include <memory>
 
@@ -24,17 +23,18 @@ public:
     Base() {};
     Base(int arg_data) : data{arg_data}
     {
-        std::cout << "Base Ctor" << std::endl;
+        
     }
-    virtual ~Base()
+    //virtual 
+    ~Base()
     {
-        std::cout << "Base dtor" << std::endl;
+        
     };
 
     virtual
     Base* clone() const
     {
-        std::cout << "This is the Base class clone()" << std::endl;
+        
         return new Base(this->data);
     }
 
@@ -44,8 +44,9 @@ public:
     }
 };
 
-class Derived : protected Base
+class Derived : public Base
 {
+//protected:
     int data;
     int data0;
 public:
@@ -55,16 +56,16 @@ public:
     Derived(int arg_data, int arg_data0) : Base{arg_data},
             data{arg_data}, data0{arg_data0}
     {
-        std::cout << "Derived Ctor" << std::endl;
+        
     }
     ~Derived()
     {
-        std::cout << "Derived dtor" << std::endl;
+        
     };
 
     Derived* clone() const
     {
-        std::cout << "This is the Derived clone()" << std::endl;
+        
         return new Derived(*this);
     }
 
@@ -80,7 +81,7 @@ public:
 
     auto get_base_data() const{
 
-        return Base::data;
+        return this->Base::data;
     }
 };
 
@@ -99,24 +100,35 @@ public:
 
     static void ptr_cast_practice()
     {
-        std::shared_ptr<Base> base_ptr;
-        std::shared_ptr<Derived> derived_ptr;
+        //{
+			/*std::shared_ptr<Base> base_ptr;
+			std::shared_ptr<Derived> derived_ptr = std::make_shared<Derived>(10, 11);
 
-        std::cout << "Before the cast base " << base_ptr.use_count() << std::endl;
-        std::cout << "Before the cast derived " << derived_ptr.use_count() << std::endl;
+			base_ptr = std::make_shared<Base> (12);
 
-        derived_ptr = std::static_pointer_cast<Derived>(std::make_shared<Base>(200));
-        std::cout << derived_ptr->get_second() << std::endl;
-        std::cout << derived_ptr->get_base_data() << std::endl;
-        //base_ptr.reset();
+			base_ptr.reset();
+			derived_ptr.reset();*/
+			/*auto de = Derived(10,11);
+			auto be = std::static_cast<Base>(de);*/
+            //delete be;
+            int raw = 0xffffffff + 1;
+            //int raw0 = 2147483647 + 1;
+			std::cout << INT32_MAX << std::endl;
+            int i = 1;
+            i = +INT32_MAX;
+			std::cout << INT32_MAX + 1 << std::endl;
+            std::cout << INT32_MAX + INT32_MAX << std::endl;
+            std::cout << INT32_MIN + 1 << std::endl;
 
-        std::shared_ptr<Derived> new_shared = std::make_shared<Derived>(100, 102);
-
-        //derived_ptr.reset();
-
-		std::cout << "After the cast base " << base_ptr.use_count() << std::endl;
-		std::cout << "After the cast derived " << derived_ptr.use_count() << std::endl;
-
+			std::cout << INT32_MIN << std::endl;
+			std::cout << INT32_MIN - 1 << std::endl;
+            auto ro = INT32_MIN + INT32_MIN;
+            long long int d = INT32_MIN + INT32_MIN;
+            std::cout << INT32_MIN + INT32_MIN << std::endl;
+			std::cout << INT32_MAX - INT32_MIN << std::endl;
+            std::cout << INT32_MIN - INT32_MAX << std::endl;
+            
+        //}
      }
 };
 
