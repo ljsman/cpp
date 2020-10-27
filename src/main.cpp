@@ -44,12 +44,19 @@ int main(int argc, const char * argv[])
 {
     print_project_info(argc, argv);
 
-    Derived d{101, 102};
-    Base* base = (Base*) (&d);
-    //Base* base = new Base{100};
+    virtual_ctor_design::ptr_cast_practice();
+
+//     Derived d{101, 102};
+//     Base* base = (Base*) (&d);
+    
+	//std::unique_ptr<Base> uptr (base);
+	//virtual_ctor_design::copy_from_base_ptr(std::move(std::make_unique<Base>(103)));
+
+    //throw exception, unique_ptr deleting wrong object. 
     //std::unique_ptr<Base> uptr (d.get_base());
     //virtual_ctor_design::copy_from_base_ptr( uptr);
-    virtual_ctor_design::copy_from_base_ptr(d.get_base());
+    
+    //NOT throw exception, MEMORY LEAK
+    //virtual_ctor_design::copy_from_base_ptr(d.get_base());
     return 0;
 }
-//End of program

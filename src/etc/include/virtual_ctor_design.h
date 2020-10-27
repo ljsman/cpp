@@ -11,27 +11,30 @@
 
 #ifndef CPP_VIRTUAL_CTOR_DESIGN_H
 #define CPP_VIRTUAL_CTOR_DESIGN_H
-
 #include <iostream>
 #include <memory>
 
 class Base
 {
+protected:
     int data;
 public:
+
+    Base() {};
     Base(int arg_data) : data{arg_data}
     {
-        std::cout << "Base Ctor" << std::endl;
+        
     }
-    virtual ~Base()
+    //virtual 
+    ~Base()
     {
-        std::cout << "Base dtor" << std::endl;
+        
     };
 
-    //virtual
+    virtual
     Base* clone() const
     {
-        std::cout << "This is the Base class clone()" << std::endl;
+        
         return new Base(this->data);
     }
 
@@ -41,24 +44,28 @@ public:
     }
 };
 
-class Derived : protected Base
+class Derived : public Base
 {
+//protected:
     int data;
     int data0;
 public:
+    Derived() : Base()
+    {}
+
     Derived(int arg_data, int arg_data0) : Base{arg_data},
             data{arg_data}, data0{arg_data0}
     {
-        std::cout << "Derived Ctor" << std::endl;
+        
     }
     ~Derived()
     {
-        std::cout << "Derived dtor" << std::endl;
+        
     };
 
     Derived* clone() const
     {
-        std::cout << "This is the Derived clone()" << std::endl;
+        
         return new Derived(*this);
     }
 
@@ -66,11 +73,21 @@ public:
     {
         return Base::return_this();
     }
+
+    auto get_second() const
+    {
+        return this->data0;
+    }
+
+    auto get_base_data() const{
+
+        return this->Base::data;
+    }
 };
 
 class virtual_ctor_design {
 public:
-    static void copy_from_base_ptr(std::unique_ptr<Base>& original)
+    static void copy_from_base_ptr(std::unique_ptr<Base>&& original)
     {
         std::unique_ptr<Base> copy {original->clone()};
 
@@ -80,6 +97,39 @@ public:
     {
         std::unique_ptr<Base> copy {original->clone()};
     }
+
+    static void ptr_cast_practice()
+    {
+        //{
+			/*std::shared_ptr<Base> base_ptr;
+			std::shared_ptr<Derived> derived_ptr = std::make_shared<Derived>(10, 11);
+
+			base_ptr = std::make_shared<Base> (12);
+
+			base_ptr.reset();
+			derived_ptr.reset();*/
+			/*auto de = Derived(10,11);
+			auto be = std::static_cast<Base>(de);*/
+            //delete be;
+            int raw = 0xffffffff + 1;
+            //int raw0 = 2147483647 + 1;
+			std::cout << INT32_MAX << std::endl;
+            int i = 1;
+            i = +INT32_MAX;
+			std::cout << INT32_MAX + 1 << std::endl;
+            std::cout << INT32_MAX + INT32_MAX << std::endl;
+            std::cout << INT32_MIN + 1 << std::endl;
+
+			std::cout << INT32_MIN << std::endl;
+			std::cout << INT32_MIN - 1 << std::endl;
+            auto ro = INT32_MIN + INT32_MIN;
+            long long int d = INT32_MIN + INT32_MIN;
+            std::cout << INT32_MIN + INT32_MIN << std::endl;
+			std::cout << INT32_MAX - INT32_MIN << std::endl;
+            std::cout << INT32_MIN - INT32_MAX << std::endl;
+            
+        //}
+     }
 };
 
 
